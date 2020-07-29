@@ -9,23 +9,7 @@
 ?>
     <div class="right_col" role="main"> <!-- page content -->
         <div class="">
-            <div class="page-title">
-                <div class="row top_tiles">
-                    <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="tile-stats">
-                          <div class="icon"><i class="fa fa-ticket"></i></div>
-                          <div class="count"><?php echo mysqli_num_rows($TicketData) ?></div>
-                          <h3>Tareas Pendientes</h3>
-                        </div>
-                    </div>
-                    <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="tile-stats">
-                          <div class="icon"><i class="fa fa-list-alt"></i></div>
-                          <div class="count"><?php echo mysqli_num_rows($ProjectData) ?></div>
-                          <h3>Proyectos</h3>
-                        </div>
-                    </div>
-                </div>
+            
                 <!-- content -->
                 <br><br>
                 <div class="row">
